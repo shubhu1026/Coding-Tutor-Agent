@@ -1,52 +1,31 @@
-# Coding-Tutor-Agent
-AI Coding Tutor
+# AI Coding Tutor
 
-AI Coding Tutor is a Streamlit web app that helps developers understand their code or errors. You can paste code, ask the tutor to explain it, get fixes, and see suggestions for improvements.
+AI Coding Tutor is a **Streamlit app** that helps you understand your code or errors. Paste your code, ask the tutor, and get explanations, fixes, and improvements.  
 
-Features
+---
 
-Code explanation: Understand what your code does and why errors occur.
+## Features
 
-Fix suggestions: Get actionable fixes for your code errors.
+- Explain code and errors  
+- Suggest fixes for errors  
+- Give improvements for cleaner code  
 
-Improvements: Receive optimized or cleaner code suggestions.
+---
 
-Supports multiple languages: Works with common programming languages like Python, C++, etc.
+## Setup
 
-Installation
-
-Clone the repository:
-
+1. Clone the repo:  
+```bash
 git clone https://github.com/yourusername/ai-coding-tutor.git
 cd ai-coding-tutor
-
-
-Create a virtual environment (optional but recommended):
-
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-
-Install dependencies:
-
+```
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
+```
+3.Add your API key in secrets.toml or .env
 
-
-Add your API key in secrets.toml or .env (recommended):
-
-# secrets.toml
-OPENAI_API_KEY="your_api_key_here"
-
-Usage
-
-Run the Streamlit app:
-
+# Run
+```bash
 streamlit run app.py
-
-
-Paste your code or error into the text area.
-
-Click Ask Tutor to get explanations, fixes, and improvements.
-
-Click Clear to reset the text area.
+```  
