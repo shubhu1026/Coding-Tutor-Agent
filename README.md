@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 3.Add your API key in secrets.toml or .env
 
-# Run
+## Run
 ```bash
 streamlit run app.py
 ```  
