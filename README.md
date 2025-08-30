@@ -36,7 +36,7 @@ pip install -r requirements.txt
 Add your API key in secrets.toml or .env (recommended):
 
 # secrets.toml
-TUTOR_API_KEY="your_api_key_here"
+OPENAI_API_KEY="your_api_key_here"
 
 Usage
 
